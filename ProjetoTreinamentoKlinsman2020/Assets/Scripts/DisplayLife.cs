@@ -13,7 +13,7 @@ public class DisplayLife : MonoBehaviour
     void Start()
     {
         vidaUI.text = "Vida: " + vidaPersonagem.ToString();
-        player.GetComponent<PlayerLife>().vida = 2;
+        player.gameObject.GetComponent<PlayerLife>().vida = 2;
     }
 
     // Update is called once per frame
