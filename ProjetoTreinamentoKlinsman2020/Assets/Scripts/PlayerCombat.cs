@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A)){
+            Atack();
+        }
+    }
+    void Atack()
+    {
+        //fazer a animação
+        //ver se tem alguém no range do ataque
+        //ver qual o inimigo que será atacado
     }
 }
