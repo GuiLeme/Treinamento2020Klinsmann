@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy_Run : StateMachineBehaviour
 {
-    public float speed = 2.5f;
+    public float speed = 7f;
 
     Transform player;
     Rigidbody2D rb;
